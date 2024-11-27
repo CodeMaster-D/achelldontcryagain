@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quattrocento:wght@400;700&display=swap');
+
+
+body {
+    background-color: #eaa7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.image-container {
+    background-color: #5b2d2d;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.image-container img {
+    width: 100%;
+    border-radius: 20px;
+}
+.text-container {
+    background-color: #5b2d2d;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: "Marck Script", cursive;
+    margin-bottom: 20px;
+    text-align: left;
+    line-height: 1.2;
+  }
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+.button {
+    background-color: #d98bff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #5b2d2d;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button i {
+    margin-right: 5px;
+}

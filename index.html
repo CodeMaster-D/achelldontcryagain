@@ -1,0 +1,59 @@
+<html>
+ <head>
+  <title>
+   Web Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="container">
+   <div class="image-container">
+    <img alt="bunga" src="mam.png" width="250" id="image"/>
+   </div>
+   <div class="text-container">
+    ade achelll . gabole bersedih hati
+    <br/>
+    Senyum ade indah. cahaya bagi hari
+    <br/>
+    ade kuat. ade berani. tak perlu khawatir
+    <br/>
+    abg selalu ada untuk adee , jangan sedi
+    <br/>
+    sediii lagi yaa
+   </div>
+   <div class="button-container">
+    <button class="button" onclick="changeImage()">
+     <i class="fas fa-chevron-right"></i>
+     click mee
+    </button>
+    <button class="button" onclick="playMusic()">
+     <i class="fas fa-music"></i>
+     Music
+    </button>
+   </div>
+   <audio id="audio-player" src="achell.mp4" preload="auto"></audio>
+  </div>
+  <script>
+   function playMusic() {
+     const audio = document.getElementById('audio-player');
+     if (audio.paused) {
+       audio.play();
+     } else {
+       audio.pause();
+     }
+   }
+   function changeImage() {
+     const image = document.getElementById('image');
+     if (image.src.endsWith('mam.png')) {
+       image.src = 'achell.jpg';
+     } else {
+       image.src = 'mam.png';
+     }
+   }
+  </script>
+ </body>
+</html>
+
+
+
